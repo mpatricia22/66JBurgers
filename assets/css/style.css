@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=PT+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    }    
+
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: PT Sans, Oswald, sans-serif;
     background-color: aqua;
 
 }
