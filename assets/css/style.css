@@ -51,3 +51,31 @@ color: #252525;
 .active {
     border-bottom: 1px, solid #3a3a3a;
     }
+
+/* hero-image */
+#burger_outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#burger_main {
+    height: 500px;
+    width: 100%;
+    background: url('../images/burger_mainm.jpg') no-repeat center center;
+
+    /*animations zoom effect on landing page*/
+    animation: burger-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+    /* creating the level o zoom of the hero image */
+    @keyframes burger-zoom {
+        from {
+            transform: scale(1.0);
+        }
+        to {
+            transform: scale(1.1);
+        }
+    }
