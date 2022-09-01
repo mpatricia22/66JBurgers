@@ -79,3 +79,34 @@ color: #252525;
             transform: scale(1.1);
         }
     }
+
+    #cover-text, #cover-text h2 {
+        color: #FFF;
+    }
+    
+    #cover-text {
+        font-size: 130%;
+        font-family: Oswald, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    
+        width: 300px;
+        height: 150px;
+    
+        padding-top: 20px;
+        padding-left: 15px;
+    
+        background-color: rgba(107, 241, 132, 0.758);
+    
+        bottom: 30px;
+        right: 150px;
+    
+        position: absolute;
+    }
+
+    .cities {
+        font-size: 100%;
+        line-height: 1.2em;
+        display: inline-flexbox;
+        
+    }
