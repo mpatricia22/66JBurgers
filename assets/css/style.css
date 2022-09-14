@@ -21,9 +21,9 @@ color: #252525;
 
 #logo {
     float: left;
-    font-size: 280%;
+    font-size: 380%;
     margin-left: 30px;
-}
+    }
 
 /* navigation links */
 #menu {
@@ -61,13 +61,13 @@ color: #252525;
 }
 
 #burger_main {
-    height: 500px;
+    height: 600px;
     width: 100%;
     background: url('../images/burger_mainm.jpg') no-repeat center center;
 
     /*animations zoom effect on landing page*/
     animation: burger-zoom;
-    animation-duration: 5s;
+    animation-duration: 4s;
     animation-fill-mode: forwards;
 }
 
@@ -89,13 +89,13 @@ color: #252525;
         font-size: 130%;
         font-family: Oswald, sans-serif;
         text-transform: uppercase;
-        letter-spacing: 5px;
+        letter-spacing: 4px;
     
         width: 300px;
-        height: 150px;
+        height: 200px;
     
-        padding-top: 20px;
-        padding-left: 15px;
+        padding-top: 40px;
+        padding-left: 10px;
     
         background-color: rgba(107, 241, 132, 0.758);
     
@@ -133,7 +133,6 @@ color: #252525;
 #center-about {
     width: 33%;
     margin: 0 auto;
-    background-color: green;
 }
 
 hr {
@@ -174,3 +173,27 @@ hr {
 .right-about-heading p {
     text-align: right;
 }
+
+#welcome {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 280%;
+}
+
+#center-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: url('../images/waitress.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
